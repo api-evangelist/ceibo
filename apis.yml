@@ -1,8 +1,25 @@
 aid: ceibo
 name: Ceibo
-description: Ceibo is a company surfaced as a portfolio company of khosla-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Ceibo is a Chilean copper technology company accelerating access to copper supply through
+  a proprietary leaching process that recovers copper from primary sulfide ores. Backed by Khosla Ventures
+  and BHP Ventures, the company positions its on-site technology as faster than bioleaching, using less
+  water than concentration and a fraction of the capital expenditure of concentrators, aiming to close
+  the global copper supply-demand gap needed for the energy transition. Headquartered in Santiago, Chile,
+  Ceibo was named a 2026 Fast Company World Changing Ideas winner. This is a company profile in the API
+  Evangelist network; Ceibo publishes no public developer/API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/ceibo/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.ceibo.tech/assets/uploads/2024/10/ceibo-seo.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +28,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Copper
+- Mining
+- Metals
+- Leaching
+- Cleantech
+- Sustainability
+- Energy Transition
+- Chile
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ceibo-domain-security.yml
 - type: Website
   url: https://www.ceibo.tech/
+- type: Blog
+  url: https://www.ceibo.tech/news/
+- type: Support
+  url: https://www.ceibo.tech/contact-us/
+- type: TermsOfService
+  url: https://www.ceibo.tech/terms-and-conditions-privacy-policy/
+- type: PrivacyPolicy
+  url: https://www.ceibo.tech/terms-and-conditions-privacy-policy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/ceibotech/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
